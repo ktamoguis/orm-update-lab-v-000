@@ -31,6 +31,9 @@ class Student
     new_student
   end
 
+  def self.create
+  end
+
   def self.drop_table
     sql = <<-SQL
       DROP TABLE IF EXISTS students;
